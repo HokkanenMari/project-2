@@ -1,0 +1,57 @@
+<!doctype html>                                         <!-- 1) Tell the browser this is an HTML5 document -->
+<html lang="en">                                         <!-- 2) Root element; lang attribute = English for accessibility -->
+  <head>                                                 <!-- 3) Head section: metadata and links (no visible content) -->
+    <meta charset="utf-8" />                             <!-- 4) Use UTF-8 so all characters (å, ä, ö, etc.) work properly -->
+    <title>Project 2 - AJAX Demo</title>                <!-- 5) Title shown on the browser tab -->
+
+    <!-- Link your CSS file for layout and colours -->   <!-- 6) Comment explaining the next line -->
+    <link rel="stylesheet" href="styles.css" />         <!-- 7) Load external CSS file that contains our styles -->
+  </head>                                                <!-- 8) End of head -->
+
+  <body>                                                 <!-- 9) Body: everything visible on the page lives here -->
+    <main class="wrap">                                  <!-- 10) Main content area, centered with the 'wrap' CSS class -->
+      <h1>Live Weather search (AJAX)</h1>                  <!-- 11) Main heading so user knows what the page does -->
+
+      <!-- Search section: user types a city, artist, station or movie -->
+      <section class="card" aria-label="Search form">   <!-- 12) Group inputs in a card; aria-label aids screen readers -->
+        <h2>Search</h2>                                 <!-- 13) Section heading: "Search" -->
+
+        <label>                                          <!-- 14) Label wraps text + input for better accessibility -->
+          Choose city                    <!-- 15) Human-readable label text -->
+          <input                                         
+            id="query"                                   
+            type="text"                                  
+            placeholder="City"                         
+            required                                     
+          />
+        </label>                                         <!-- 21) End of label for search input -->
+
+        <label>                                          <!-- 22) Label for the data source select drop-down -->
+          Data source                                    <!-- 23) Short description above the select element -->
+          <select id="projectType">                     <!-- 24) Drop-down list for choosing which API to use -->
+            <option value="weather">Weather - OpenWeatherMap</option>   <!-- 25) Option: Weather app (OpenWeatherMap) -->
+                     
+          </select>                                      <!-- 29) End of select element -->
+        </label>                                         <!-- 30) End of label for select -->
+
+        <button id="searchBtn" type="button">           <!-- 31) Button that will start the AJAX call (type=button) -->
+          Search                                <!-- 32) Button text visible to the user -->
+        </button>                                       <!-- 33) End of button -->
+      </section>                                        <!-- 34) End of search section -->
+
+      <!-- Status messages for loading, errors and empty results -->
+      <p id="status" aria-live="polite"></p>           <!-- 35) Empty paragraph updated by JS with messages -->
+
+      <!-- Results section: cards will be inserted here by JavaScript -->
+      <section class="card" aria-label="Search results"> <!-- 36) Second card that will contain the result list -->
+        <h2>Results</h2>                                <!-- 37) Heading for results area -->
+        <div id="results" class="results-grid">         <!-- 38) Empty container; JS will inject result cards here -->
+          <!-- JavaScript will create result cards here --> <!-- 39) Helpful comment for future you or other devs -->
+        </div>                                          <!-- 40) End of results container -->
+      </section>                                        <!-- 41) End of results section -->
+    </main>                                              <!-- 42) End of main content area -->
+
+    <!-- Load JavaScript at the end so HTML exists before it runs -->
+    <script src="app.js"></script>                     <!-- 43) Attach our custom JS file which handles AJAX -->
+  </body>                                                <!-- 44) End of body -->
+</html>                                                  <!-- 45) End of HTML document -->

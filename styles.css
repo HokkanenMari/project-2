@@ -1,0 +1,90 @@
+/* Basic page styling */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  background-color: #fef9e7; /* vaalea keltainen tausta */
+  color: #0b3d91; /* tummansininen teksti pääväreihin sopien */
+}
+
+/* Center content and limit width for readability */
+.wrap {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 0 16px;
+}
+
+/* Card look for main sections */
+.card {
+  background-color: #fff9c4; /* vaalea keltainen kortti */
+  border: 2px solid #0b3d91; /* tummansininen reunus */
+  border-radius: 12px;
+  padding: 16px;
+  margin: 12px 0;
+}
+
+/* Stack labels and inputs */
+label {
+  display: block;
+  margin: 8px 0;
+}
+
+input,
+select,
+button {
+  font: inherit;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #0b3d91;
+}
+
+/* Button style */
+button {
+  background-color: #0b3d91; /* tummansininen */
+  color: #fff200; /* kirkas keltainen teksti */
+  cursor: pointer;
+}
+button:hover {
+  background-color: #1a4bb8; /* hieman vaaleampi sininen hoverissa */
+}
+
+/* Grid for result cards */
+.results-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+/* Individual result card */
+.result-card {
+  border: 2px solid #0b3d91; /* tummansininen reunus */
+  border-radius: 10px;
+  padding: 10px 12px;
+  background-color: #fffde7; /* hyvin vaalea keltainen */
+}
+
+.result-card h3 {
+  margin-top: 0;
+  margin-bottom: 6px;
+  font-size: 1.05em;
+  color: #0b3d91; /* otsikko tummansininen */
+}
+
+.result-card .muted {
+  display: flex;           /* Flex-laatikko */
+  flex-direction: column;  /* Pystysuuntainen järjestys */
+  align-items: center;     /* Keskittää ikonit ja tekstin vaakasuunnassa */
+  font-size: 0.95em;
+  color: #0b3d91;
+  margin-top: 6px;
+  gap: 8px;                /* Lisätty tila ikonien ja tekstin väliin */
+}
+
+.result-card .muted img {
+  display: block;
+  max-width: 60px;
+  height: auto;
+  padding: 6px;
+  background-color: lightblue;  /* Keltainen tausta */
+  border-radius: 50%;         /* Pyöreä muoto */
+  border: 2px solid #0b3d91;  /* Tummansininen reunus */
+}
