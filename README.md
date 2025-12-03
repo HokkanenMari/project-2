@@ -16,6 +16,15 @@ Udes API: https://openweathermap.org/
 
 <img width="1892" height="1073" alt="image" src="https://github.com/user-attachments/assets/50d09199-935b-4ba4-a770-256c39c2b985" />
 
-I had too little time for this project, so unfortunately I had to do it in a hurry and didn’t have time to dive deeply into everything. However, it was wonderful to learn more about coding again and to notice that I was able to edit code a little better than before. A large part of the JavaScript code still feels really difficult to understand. The most fun part was that I wanted to add the ability to use the Enter key in the search field, and I managed to make it work!
+I had too little time for this project, so unfortunately I had to do it in a hurry and didn’t have time to dive deeply into everything. However, it was wonderful to learn more about coding again and to notice that I was able to edit code a little better than before. A large part of the JavaScript code still feels really difficult to understand. The most fun part was that I wanted to add the ability to use the Enter key in the search field, and I managed to make it work! And of course the thing that my API integration worked! 
+
+Self-Grading:
+1)	Core functionality and usability 7 points
+2)	 API integration and data handling 4 points
+3)	Front end layout and interaction 4 points
+4)	Code quality and architecture 4 points
+5)	Documentation 1 point
+6)	Demo video and Git portfolio 3 points 
+= 24 points
 
 
