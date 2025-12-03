@@ -3,9 +3,12 @@ https://hokkanenmari.github.io/project-2/
 https://github.com/HokkanenMari/project-2/
 
 https://www.loom.com/share/17f80d4acf2c4e3bb4ee57f650cfcb74
+
 Timestamps: 0:00 Introduction, 1:01 Code, 1:24 Search usability, 2:55 Styling and results, 3:40 Reflection 
 
 Created a project where user can search for the weather of chosen city. It shows current weather and 5 next days weather. The weather results include temperature (in Celsius), description (rainy, etc.), icon of the weather and humidity. The result card also includes which day and time it is showing. 
+
+Udes API: https://openweathermap.org/
 
 <img width="1219" height="391" alt="image" src="https://github.com/user-attachments/assets/8d757f99-9920-4e45-acb6-88beedc0ce4f" />
 
