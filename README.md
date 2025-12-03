@@ -1,4 +1,5 @@
 https://hokkanenmari.github.io/project-2/
+
 https://github.com/HokkanenMari/project-2/
 
 Created a project where user can search for the weather of chosen city. It shows current weather and 5 next days weather. The weather results include temperature (in Celsius), description (rainy, etc.), icon of the weather and humidity. The result card also includes which day and time it is showing. 
